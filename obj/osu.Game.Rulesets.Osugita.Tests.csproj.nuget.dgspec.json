@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Coding\\C#\\Osugita\\osu.Game.Rulesets.Osugita.Tests\\osu.Game.Rulesets.Osugita.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Coding\\C#\\Osugita\\osu.Game.Rulesets.Osugita.Tests\\osu.Game.Rulesets.Osugita.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Coding\\C#\\Osugita\\osu.Game.Rulesets.Osugita.Tests\\osu.Game.Rulesets.Osugita.Tests.csproj",
+        "projectName": "osu.Game.Rulesets.Osugita.Tests",
+        "projectPath": "C:\\Coding\\C#\\Osugita\\osu.Game.Rulesets.Osugita.Tests\\osu.Game.Rulesets.Osugita.Tests.csproj",
+        "packagesPath": "C:\\Users\\tarka\\.nuget\\packages\\",
+        "outputPath": "C:\\Coding\\C#\\Osugita\\osu.Game.Rulesets.Osugita.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tarka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Coding\\C#\\Osugita\\osu.Game.Rulesets.Osugita\\osu.Game.Rulesets.Osugita.csproj": {
+                "projectPath": "C:\\Coding\\C#\\Osugita\\osu.Game.Rulesets.Osugita\\osu.Game.Rulesets.Osugita.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Appveyor.TestLogger": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Coding\\C#\\Osugita\\osu.Game.Rulesets.Osugita\\osu.Game.Rulesets.Osugita.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Coding\\C#\\Osugita\\osu.Game.Rulesets.Osugita\\osu.Game.Rulesets.Osugita.csproj",
+        "projectName": "osu.Game.Rulesets.Osugita",
+        "projectPath": "C:\\Coding\\C#\\Osugita\\osu.Game.Rulesets.Osugita\\osu.Game.Rulesets.Osugita.csproj",
+        "packagesPath": "C:\\Users\\tarka\\.nuget\\packages\\",
+        "outputPath": "C:\\Coding\\C#\\Osugita\\osu.Game.Rulesets.Osugita\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tarka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "ppy.osu.Game": {
+              "target": "Package",
+              "version": "[2021.424.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
