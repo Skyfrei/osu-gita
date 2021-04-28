@@ -2,7 +2,8 @@
 
 
 The point of this mode would be specifically for guitar players or people who want to get better at guitar generally. You would get a screen similar to manias screen and play along the song while strumming the guitar strings.
-Project idea so far
+Project idea so far:
+
 The guitar cable will need to be connected to an adapter and the latter is connected to the target PC. Thus the PC will be able to receive guitar noise in real time, so no delay.
 
 I believe there will be 3 key topics that need to be solved before the mode can be successfully implemented
